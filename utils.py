@@ -1,12 +1,3 @@
-"""
-utils.py
---------
-Utility/helper functions shared across the Iris Flower Classification
-project. Keeping these in a single module avoids code duplication and
-keeps the main workflow scripts (main.py, model_training.py,
-visualization.py, prediction.py) clean and readable.
-"""
-
 import os
 
 

@@ -1,13 +1,3 @@
-"""
-visualization.py
-----------------
-All plotting functions for the Iris Flower Classification project.
-
-Every function saves a high-resolution (300 DPI) PNG file to disk so
-that the graphs are available for the README "Screenshots" section
-and for reviewers to inspect without re-running the code.
-"""
-
 import matplotlib
 matplotlib.use("Agg")  # Use a non-interactive backend so the script
                        # never blocks waiting for a plot window to close.

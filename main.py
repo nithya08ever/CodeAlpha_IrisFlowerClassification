@@ -1,25 +1,3 @@
-"""
-main.py
--------
-Entry point for the Iris Flower Classification project.
-
-Running this script executes the full machine learning pipeline:
-
-    1. Load and explore the Iris dataset.
-    2. Perform exploratory data analysis with professional plots.
-    3. Split and scale the data.
-    4. Train and compare five different classification models.
-    5. Automatically select the best-performing model.
-    6. Evaluate that model in detail and plot its confusion matrix.
-    7. Plot feature importance (if supported by the best model).
-    8. Save the trained model and scaler to disk for later use in
-       prediction.py.
-
-Usage
------
-    python main.py
-"""
-
 from model_training import (
     load_iris_dataframe,
     explore_dataset,
