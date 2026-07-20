@@ -43,6 +43,19 @@ sns.heatmap(df.iloc[:, :4].corr(), annot=True, cmap="coolwarm")
 plt.title("Correlation Heatmap")
 plt.savefig("images/correlation_heatmap.png")
 plt.show()
+# -------------------------------
+# Pair Plot
+# -------------------------------
+
+sns.pairplot(
+    df,
+    hue="Species",
+    diag_kind="hist",
+    markers=["o", "s", "D"]
+)
+
+plt.savefig("images/pair_plot.png")
+plt.show()
 
 # -------------------------------
 # Prepare Data
